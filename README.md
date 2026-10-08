@@ -4,7 +4,7 @@
 
 ### A node-based engine for live graphics, audio, lighting, and interactive media on macOS, Windows, Linux, and Raspberry Pi.
 
-[**macOS**](https://get.ogex.app/OGEX-0.4.6.dmg) · [**Windows**](https://get.ogex.app/OGEX-0.4.6-windows-x86_64-setup.exe) · [**Linux**](https://get.ogex.app/ogex_0.4.6-0_amd64.deb) · [**Raspberry Pi**](https://get.ogex.app/ogex_0.4.6-0_arm64.deb) · [Features](https://ogex.app/features)
+[**macOS**](https://get.ogex.app/OGEX-0.5.0.dmg) · [**Windows**](https://get.ogex.app/OGEX-0.5.0-windows-x86_64-setup.exe) · [**Linux**](https://get.ogex.app/ogex_0.5.0-0_amd64.deb) · [**Raspberry Pi**](https://get.ogex.app/ogex_0.5.0-0_arm64.deb) · [Features](https://ogex.app/features)
 
 [![Watch the OGEX showreel](https://img.youtube.com/vi/JXA2xRo9f88/maxresdefault.jpg)](https://www.youtube.com/watch?v=JXA2xRo9f88)
 
@@ -24,22 +24,22 @@ If you have used TouchDesigner, Max/MSP, vvvv, Notch, or Houdini, the node-graph
 
 ## Download
 
-This repository is the binary release. Each platform is updated on its own schedule, so the latest version can differ between them. Right now every platform is on 0.4.6.
+This repository is the binary release. Each platform is updated on its own schedule, so the latest version can differ between them. Right now every platform is on 0.5.0.
 
 | Platform | Version | Download | Size |
 |---|---|---|---|
-| macOS, Apple Silicon | 0.4.6 | [OGEX-0.4.6.dmg](https://get.ogex.app/OGEX-0.4.6.dmg) | 532 MB |
-| Windows, x64 | 0.4.6 | [OGEX-0.4.6-windows-x86_64-setup.exe](https://get.ogex.app/OGEX-0.4.6-windows-x86_64-setup.exe) | 1.03 GB |
-| Linux, x86_64 (deb) | 0.4.6 | [ogex_0.4.6-0_amd64.deb](https://get.ogex.app/ogex_0.4.6-0_amd64.deb) | 1.05 GB |
-| Linux, x86_64 (tar.gz) | 0.4.6 | [ogex-0.4.6-linux-x86_64.tar.gz](https://get.ogex.app/ogex-0.4.6-linux-x86_64.tar.gz) | 1.32 GB |
-| Raspberry Pi 5 and Linux arm64 (deb) | 0.4.6 | [ogex_0.4.6-0_arm64.deb](https://get.ogex.app/ogex_0.4.6-0_arm64.deb) | 479 MB |
-| Raspberry Pi 5 and Linux arm64 (tar.gz) | 0.4.6 | [ogex-0.4.6-linux-aarch64.tar.gz](https://get.ogex.app/ogex-0.4.6-linux-aarch64.tar.gz) | 591 MB |
+| macOS, Apple Silicon | 0.5.0 | [OGEX-0.5.0.dmg](https://get.ogex.app/OGEX-0.5.0.dmg) | 577 MB |
+| Windows, x64 | 0.5.0 | [OGEX-0.5.0-windows-x86_64-setup.exe](https://get.ogex.app/OGEX-0.5.0-windows-x86_64-setup.exe) | 1.07 GB |
+| Linux, x86_64 (deb) | 0.5.0 | [ogex_0.5.0-0_amd64.deb](https://get.ogex.app/ogex_0.5.0-0_amd64.deb) | 1.09 GB |
+| Linux, x86_64 (tar.gz) | 0.5.0 | [ogex-0.5.0-linux-x86_64.tar.gz](https://get.ogex.app/ogex-0.5.0-linux-x86_64.tar.gz) | 1.36 GB |
+| Raspberry Pi 5 and Linux arm64 (deb) | 0.5.0 | [ogex_0.5.0-0_arm64.deb](https://get.ogex.app/ogex_0.5.0-0_arm64.deb) | 516 MB |
+| Raspberry Pi 5 and Linux arm64 (tar.gz) | 0.5.0 | [ogex-0.5.0-linux-aarch64.tar.gz](https://get.ogex.app/ogex-0.5.0-linux-aarch64.tar.gz) | 637 MB |
 
 **macOS.** Open the DMG and drag OGEX to Applications. It is signed with a Developer ID and notarized by Apple, so it opens normally.
 
 **Windows.** Run the installer. It is code signed, with Elliot Turner as the publisher. A new release can still get a SmartScreen warning for its first few days; if it does, choose More info, then Run anyway. The installer also puts the Visual C++ runtime in place if your machine does not already have it.
 
-**Linux.** Install the deb with `sudo apt install ./ogex_0.4.6-0_amd64.deb`, or unpack the tar.gz anywhere and run `usr/bin/ogex-studio` from inside the extracted `ogex-<version>-linux-<arch>` folder.
+**Linux.** Install the deb with `sudo apt install ./ogex_0.5.0-0_amd64.deb`, or unpack the tar.gz anywhere and run `usr/bin/ogex-studio` from inside the extracted `ogex-<version>-linux-<arch>` folder.
 
 **Raspberry Pi.** The arm64 build is made on a Pi 5 running 64-bit Raspberry Pi OS, and installs the same way as the Linux build. It also runs on other arm64 Linux machines.
 
@@ -351,7 +351,7 @@ A Diagnostics panel collects warnings and errors, with Console, Change Log, Stat
 - **Raspberry Pi.** Pi 5 on 64-bit Raspberry Pi OS. The Pi's graphics chip can't run the GPU fluid simulation or blend 32-bit float renders, and those nodes say so rather than quietly giving you the wrong picture. Everything else runs.
 - Graphs are JSON files, and can also run with no window using `ogex-studio --headless`.
 
-Every platform is on 0.4.6.
+Every platform is on 0.5.0.
 
 ## Links
 
