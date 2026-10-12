@@ -161,13 +161,6 @@ Kinematic is the new name, and you can now model, sculpt, paint and edit in the 
 
 [What's new in 0.5.0](https://kinematic.org/whats-new/) · [Full release notes](https://kinematic.org/changelog/#v0-5-0) · [All releases](https://kinematic.org/changelog/)
 
-## Showreel
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=JXA2xRo9f88"><img src="https://img.youtube.com/vi/JXA2xRo9f88/maxresdefault.jpg" alt="Watch the showreel" width="640"></a><br>
-  <sub>Recorded before 0.5.0, when the app was still called OGEX.</sub>
-</p>
-
 ## Make it yours
 
 Python is built in, so scripts and extensions work with nothing else to install. Write your own nodes, panels and tools, or WGSL and GLSL shaders for pictures, materials and geometry. Run graphs from the command line too:
