@@ -2,7 +2,7 @@
 
 # Kinematic
 
-### One free app for 3D, images, video, simulation, live shows and sound.
+### One free tool for 3D, images, video, simulation, live shows and sound.
 
 macOS · Windows · Linux · Raspberry Pi. No account, no license key.
 
